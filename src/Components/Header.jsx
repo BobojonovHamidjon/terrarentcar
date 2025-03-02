@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,15 +18,15 @@ function Header() {
             <div className={`md:flex flex-col items-end ${isMenuOpen ? 'flex' : 'hidden'}`}>
                 <ul className="flex flex-col md:flex-row gap-10 bg-black md:bg-transparent p-5 md:p-0 absolute md:relative top-16 md:top-0 right-0 md:right-auto w-full md:w-auto shadow-md md:shadow-none">
                     <li>
-                        <a className="text-white font-normal" href="/cars">MASHINALAR</a>
+                        <Link className="text-white font-normal" to="/cars">MASHINALAR</Link>
                     </li>
                     <li>
-                        <a className="text-white font-normal" href="/brand">BRENDLAR</a>
+                        <Link className="text-white font-normal" to="/brand">BRENDLAR</Link>
                     </li>
-                    <li><a className="text-white font-normal" href="/services">XIZMATLAR</a></li>
-                    <li><a className="text-white font-normal" href="/about">BIZ HAQIMIZDA</a></li>
-                    <li><a className="text-white font-normal" href="/contact">ALOQA</a></li>
-                    <li><a className="text-white font-normal" href="/blog">BLOG</a></li>
+                    <li><Link className="text-white font-normal" to="/services">XIZMATLAR</Link></li>
+                    <li><Link className="text-white font-normal" to="/about">BIZ HAQIMIZDA</Link></li>
+                    <li><Link className="text-white font-normal" to="/contact">ALOQA</Link></li>
+                    <li><Link className="text-white font-normal" to="/blog">BLOG</Link></li>
                 </ul>
                 <a href="tel:+998990000441" className="text-white font-normal">+998 (99) 000 04 41</a>
             </div>
