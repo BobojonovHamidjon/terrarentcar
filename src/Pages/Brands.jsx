@@ -25,7 +25,7 @@ function Brands() {
       {loading ? (
         <p className="text-white text-center">Loading...</p>
       ) : (
-        <div className='grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5'>
+        <div className='grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5'>
           {brands.map(brand => (
             <div 
               className='flex flex-col items-center p-5 bg-[#1a1a2e] rounded-2xl shadow-lg transition-transform transform hover:scale-105' 
