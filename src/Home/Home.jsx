@@ -5,6 +5,7 @@ import Brands from '../Pages/Brands'
 import Services from '../Pages/Services'
 import Car from './Car'
 import Luxure from './Luxure'
+import Locations from './Location'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
      <Car/>
      <Services/>
      <Luxure/>
+     <Locations/>
      
 
     </>
