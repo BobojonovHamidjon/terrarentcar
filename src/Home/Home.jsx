@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Min from '../Pages/Min'
 import Brands from '../Pages/Brands'
 import Services from '../Pages/Services'
-import Car from './Car'
+import Car from '../Pages/Car'
 import Luxure from './Luxure'
 import Locations from './Location'
 

@@ -12,8 +12,8 @@ function Header() {
                 <button className='p-0 rounded-full'> <img src="https://terra-autorent.vercel.app/images/en-img.png" alt="eng"  className='w-6'/></button>
                 <button className='p-0 rounded-full'> <img src="https://terra-autorent.vercel.app/images/ru-img.png" alt="ru"  className='w-6'/></button>
                 <input type="text" className="px-5 rounded-xl h-12 w-[25rem] bg-gradient-to-r from-gray-700 to-black mr-6 text-white md:block hidden " placeholder="Qidirish . . ."></input>
-                <a href="/"> <img src="/images/logo.png" alt="logo" className='w-32' />
-                </a>
+                <Link to="/"> <img src="/images/logo.png" alt="logo" className='w-32' />
+                </Link>
             </div>
             <div className={`md:flex flex-col items-end ${isMenuOpen ? 'flex' : 'hidden'}`}>
                 <ul className="flex flex-col md:flex-row gap-10 bg-black md:bg-transparent p-5 md:p-0 absolute md:relative top-16 md:top-0 right-0 md:right-auto w-full md:w-auto shadow-md md:shadow-none">
